@@ -21,5 +21,11 @@ namespace ex1
         {
 
         }
+
+        private void 開新ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            form1 form = new form1();
+            form.Show();
+        }
     }
 }

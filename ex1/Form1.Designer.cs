@@ -128,6 +128,7 @@ namespace ex1
             this.開新ToolStripMenuItem.Name = "開新ToolStripMenuItem";
             this.開新ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.開新ToolStripMenuItem.Text = "開新";
+            this.開新ToolStripMenuItem.Click += new System.EventHandler(this.開新ToolStripMenuItem_Click);
             // 
             // 時間ToolStripMenuItem
             // 
